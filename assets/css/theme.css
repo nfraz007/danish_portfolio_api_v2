@@ -1,0 +1,238 @@
+body {
+  font-family: "Roboto";
+  padding: 0px;
+  margin: 0px;
+  font-size: 16px !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 10px 0 !important;
+}
+
+h2 {
+  color: #f2b632 !important;
+  font-weight: bold;
+}
+
+h3 {
+  color: #252839 !important;
+}
+
+h4 {
+  color: #252839 !important;
+  font-weight: bold;
+}
+
+p {
+  padding: 0px;
+  margin: 0px;
+}
+
+a {
+  text-decoration: none !important;
+  color: #252839 !important;
+}
+a:hover, a:focus {
+  text-decoration: none !important;
+  color: #f2b632 !important;
+}
+
+input:focus, textarea:focus {
+  border: solid 1px #252839 !important;
+}
+
+.my_btn, .my_btn_icon, .my_btn_primary, .my_btn_primary-large {
+  background-color: #252839;
+  color: white !important;
+}
+.my_btn:hover, .my_btn_icon:hover, .my_btn_primary:hover, .my_btn_primary-large:hover, .my_btn:focus, .my_btn_icon:focus, .my_btn_primary:focus, .my_btn_primary-large:focus {
+  background-color: #464a5e;
+  color: white;
+}
+.my_btn_primary, .my_btn_primary-large {
+  padding: 5px 20px !important;
+}
+.my_btn_primary-large {
+  padding: 10px 50px !important;
+}
+.my_btn_icon {
+  width: 100% !important;
+  padding: 20px 0 !important;
+}
+
+.dropdown .dropdown-menu {
+  background-color: #252839 !important;
+  border-bottom: solid #f2b632 !important;
+}
+.dropdown .dropdown-menu li {
+  padding: 10px !important;
+}
+.dropdown .dropdown-menu li:hover, .dropdown .dropdown-menu li:focus {
+  background-color: #464a5e !important;
+}
+
+.error_message {
+  font-size: 12px !important;
+  color: #d43f3a !important;
+}
+
+.alert {
+  color: white !important;
+}
+.alert-danger {
+  background-color: #d43f3a !important;
+}
+.alert-success {
+  background-color: #255625 !important;
+}
+
+.thumbnail:hover {
+  border: solid 1px #252839 !important;
+  box-shadow: 1px 2px 4px #b5b5b7;
+}
+
+.badge {
+  padding: 5px 10px !important;
+  background: #252839 !important;
+}
+
+.normal {
+  font-weight: normal !important;
+}
+
+.bold {
+  font-weight: bold !important;
+}
+
+.italic {
+  font-style: italic !important;
+}
+
+.color_primary {
+  background-color: #252839 !important;
+}
+.color_secondary {
+  background-color: #f2b632 !important;
+}
+.color_grey_dark {
+  background-color: #677077 !important;
+}
+.color_grey_light {
+  background-color: #b5b5b7 !important;
+}
+.color_text_primary {
+  color: #252839 !important;
+}
+.color_text_secondary {
+  color: #f2b632 !important;
+}
+.color_text_grey_dark {
+  color: #677077 !important;
+}
+.color_text_grey_light {
+  color: #b5b5b7 !important;
+}
+.color_text_white {
+  color: white !important;
+}
+
+#header {
+  background-color: #252839;
+}
+#header nav {
+  margin-bottom: 0 !important;
+  background: #252839;
+  border-bottom: solid 5px #f2b632;
+}
+#header nav .active a {
+  font-weight: bold !important;
+  color: #f2b632 !important;
+  background: #464a5e !important;
+}
+#header nav .navbar-brand {
+  color: #f2b632 !important;
+}
+#header nav button {
+  color: #f2b632 !important;
+}
+#header a {
+  color: white !important;
+}
+#header a:hover, #header a:focus {
+  background-color: #464a5e !important;
+}
+
+#footer {
+  background: #252839;
+  color: white !important;
+  border-top: solid 5px #f2b632;
+}
+#footer_copyright {
+  background: #f2b632 !important;
+  color: #252839 !important;
+}
+
+.section_bio .my_btn_icon {
+  background: white !important;
+  color: #252839 !important;
+}
+.section_bio .my_btn_icon:hover {
+  color: #464a5e !important;
+}
+.section_bio_short {
+  background: #252839 !important;
+  color: white !important;
+  border-bottom: solid 5px #f2b632;
+}
+.section_count {
+  background: #252839 !important;
+  color: #f2b632 !important;
+  border-top: solid 5px #f2b632;
+  border-bottom: solid 5px #f2b632;
+}
+.section_certificate .thumbnail {
+  min-height: 500px !important;
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    font-size: 14px !important;
+  }
+
+  .gap {
+    padding: 5px 0 !important;
+  }
+  .gap-small {
+    padding: 5px 0 !important;
+  }
+}
+@media screen and (min-width: 500px) and (max-width: 1000px) {
+  body {
+    font-size: 15px !important;
+  }
+
+  .gap {
+    padding: 10px 0 !important;
+  }
+  .gap-small {
+    padding: 6px 0 !important;
+  }
+}
+@media screen and (min-width: 1000px) and (max-width: 1200px) {
+  .gap {
+    padding: 15px 0 !important;
+  }
+  .gap-small {
+    padding: 9px 0 !important;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .gap {
+    padding: 20px 0 !important;
+  }
+  .gap-small {
+    padding: 12px 0 !important;
+  }
+}
+
+/*# sourceMappingURL=assets/css/theme.css.map */

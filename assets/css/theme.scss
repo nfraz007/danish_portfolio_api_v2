@@ -1,0 +1,264 @@
+$primary_color: #252839;
+$primary_color_hover: #464a5e;
+$secondary_color: #f2b632;
+$grey_dark : #677077;
+$grey_light: #b5b5b7;
+$grey_background: #eee;
+$red: #d43f3a;
+$orange: #985f0d;
+$green: #255625;
+
+body{
+	font-family: "Roboto";
+	padding: 0px;
+	margin: 0px;
+	font-size: 16px !important;
+}
+
+h1,h2,h3,h4,h5,h6{
+	margin: 10px 0 !important;
+}
+
+h2{
+	color: $secondary_color !important;
+	font-weight: bold;
+}
+h3{
+	color: $primary_color !important;
+}
+h4{
+	color: $primary_color !important;
+	font-weight: bold;
+}
+
+p{
+	padding: 0px;
+	margin: 0px;
+}
+
+a{
+	text-decoration: none !important;
+	color: $primary_color !important;
+	&:hover, &:focus{
+		text-decoration: none !important;
+		color: $secondary_color !important;
+	}
+}
+
+input, textarea{
+	&:focus{
+		border: solid 1px $primary_color !important;
+	}
+}
+
+.my_btn{
+	background-color: $primary_color;
+	color: white !important;
+	&:hover, &:focus{
+		background-color: $primary_color_hover;
+		color: white;
+	}
+	&_primary{
+		@extend .my_btn;
+		padding: 5px 20px !important;
+		&-large{
+			@extend .my_btn_primary;
+			padding: 10px 50px !important;
+		}
+	}
+	&_icon{
+		@extend .my_btn;
+		width: 100% !important;
+		padding: 20px 0 !important;
+	}
+}
+
+.dropdown{
+	.dropdown-menu{
+		background-color: $primary_color !important;
+		border-bottom: solid $secondary_color !important;
+		li{
+			padding: 10px !important;
+			&:hover, &:focus{
+				background-color: $primary_color_hover !important;
+			}
+		}
+	}
+}
+
+.error_message{
+	font-size: 12px !important;
+	color: $red !important;
+}
+
+.alert{
+	color: white !important;
+	&-danger{
+		background-color: $red !important;
+	}
+	&-success{
+		background-color: $green !important;
+	}
+}
+
+.thumbnail{
+	&:hover{
+		border: solid 1px $primary_color !important;
+		box-shadow: 1px 2px 4px $grey_light;
+	}
+}
+
+.badge{
+	padding: 5px 10px !important;
+	background: $primary_color !important;
+}
+
+.normal{
+	font-weight: normal !important;
+}
+
+.bold{
+	font-weight: bold !important;
+}
+
+.italic{
+	font-style: italic !important;
+}
+
+.color{
+	&_primary{
+		background-color: $primary_color !important;
+	}
+	&_secondary{
+		background-color: $secondary_color !important;
+	}
+	&_grey_dark{
+		background-color: $grey_dark !important;
+	}
+	&_grey_light{
+		background-color: $grey_light !important;
+	}
+	&_text{
+		&_primary{
+			color: $primary_color !important;
+		}
+		&_secondary{
+			color: $secondary_color !important;
+		}
+		&_grey_dark{
+			color: $grey_dark !important;
+		}
+		&_grey_light{
+			color: $grey_light !important;
+		}
+		&_white{
+			color: white !important;
+		}
+	}
+}
+
+#header{
+	background-color: $primary_color;
+	nav{
+		margin-bottom: 0 !important;
+		background: $primary_color;
+		border-bottom: solid 5px $secondary_color;
+		.active a{
+			font-weight: bold !important;
+			color: $secondary_color !important;
+			background: $primary_color_hover !important;
+		}
+		.navbar-brand{
+			color: $secondary_color !important;
+		}
+		button{
+			color: $secondary_color !important;
+		}
+	}
+	a{
+		color: white !important;
+		&:hover, &:focus{
+			background-color: $primary_color_hover !important;
+		}
+	}
+}
+
+#footer{
+	background: $primary_color;
+	color: white !important;
+	border-top: solid 5px $secondary_color;
+	&_copyright{
+		background: $secondary_color !important;
+		color: $primary_color !important;
+	}
+}
+
+.section{
+	&_bio{
+		.my_btn_icon{
+			background: white !important;
+			color: $primary_color !important;
+			&:hover{
+				color: $primary_color_hover !important;
+			}
+		}
+	}
+	&_bio_short{
+		background: $primary_color !important;
+		color: white !important;
+		border-bottom: solid 5px $secondary_color;
+	}
+	&_count{
+		background: $primary_color !important;
+		color: $secondary_color !important;
+		border-top: solid 5px $secondary_color;
+		border-bottom: solid 5px $secondary_color;
+	}
+	&_certificate{
+		.thumbnail{
+			min-height: 500px !important;
+		}
+	}
+}
+
+@media screen and (max-width: 500px) {
+	body{
+		font-size: 14px !important;
+	}
+	.gap{
+		padding: 5px 0 !important;
+		&-small{
+			padding: 5px 0 !important;
+		}
+	}
+}
+
+@media screen and (min-width: 500px) and (max-width: 1000px) {
+	body{
+		font-size: 15px !important;
+	}
+	.gap{
+		padding: 10px 0 !important;
+		&-small{
+			padding: 6px 0 !important;
+		}
+	}
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1200px) {
+	.gap{
+		padding: 15px 0 !important;
+		&-small{
+			padding: 9px 0 !important;
+		}
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.gap{
+		padding: 20px 0 !important;
+		&-small{
+			padding: 12px 0 !important;
+		}
+	}
+}
