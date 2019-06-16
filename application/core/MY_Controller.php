@@ -13,7 +13,7 @@ class MY_Controller extends CI_Controller {
 	public $section = array();
 
 	public function __construct(){
-		parent::__construct();sleep(1);
+		parent::__construct();
 
 		// set default time zone
 		date_default_timezone_set("Asia/Kolkata");
