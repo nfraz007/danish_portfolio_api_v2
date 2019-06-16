@@ -8,6 +8,13 @@ Full Documentation [https://nfraz007.github.io/danish_portfolio_api_v2/](https:/
 * back-end : Codeigniter, PHP, Mysqli, JSON
 * Software : Xampp (or any local server), Any browser
 
+# API End Point
+* To get data for home page
+* To get data for experience page
+* To get data for project page
+* To get data for certificate page
+
+
 # Setup and Installation
 * Download the zip file of this directory.
 * Copy the file into your xampp htdocs location. by default the location is **C://xampp/htdocs**
