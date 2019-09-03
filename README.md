@@ -9,10 +9,10 @@ Full Documentation [https://nfraz007.github.io/danish_portfolio_api_v2/](https:/
 * Software : Xampp (or any local server), Any browser
 
 # API End Point
-* To get data for home page [Link](http://nazishfraz.co.nf/danish_portfolio_api_v2/)
-* To get data for experience page [Link](http://nazishfraz.co.nf/danish_portfolio_api_v2/experience)
-* To get data for project page [Link](http://nazishfraz.co.nf/danish_portfolio_api_v2/projects)
-* To get data for certificate page [Link](http://nazishfraz.co.nf/danish_portfolio_api_v2/certifications)
+* To get data for home page [Link](http://project.nfraz.co.in/danish_portfolio_api_v2/)
+* To get data for experience page [Link](http://project.nfraz.co.in/danish_portfolio_api_v2/experience)
+* To get data for project page [Link](http://project.nfraz.co.in/danish_portfolio_api_v2/projects)
+* To get data for certificate page [Link](http://project.nfraz.co.in/danish_portfolio_api_v2/certifications)
 
 
 # Setup and Installation
